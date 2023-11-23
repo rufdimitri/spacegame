@@ -18,7 +18,7 @@ public class SpaceGame extends JPanel implements ActionListener {
 
 	private Spaceship spaceship = new Spaceship(new Point2D.Double(0, 0), 40);
 	private java.util.Queue<Star> stars = new LinkedBlockingQueue<>();
-	private final static double starProbability = 0.5;
+	private final static double starProbability = 3;
 	private Color background;
 	private boolean isLeftPressed, isRightPressed, isUpPressed, isDownPressed;
 	private double speedX = 0;
